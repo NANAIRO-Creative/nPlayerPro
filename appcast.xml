@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>nPlayerPro</title>
+        <item>
+            <title>2.0</title>
+            <pubDate>Wed, 05 Aug 2026 16:27:16 +0900</pubDate>
+            <link>https://github.com/mistelier/nPlayerPro</link>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# nPlayerPro 2.0
+
+nPlayerPro 2.0では、フレーム精度、タイムコード処理、音声再生の安定性を中心に再生エンジンを刷新しました。
+
+## 新機能・改善
+
+- VFR動画と開始時刻が0ではない動画に対応し、フレーム数、シーク、コマ送りの精度を向上
+- 実際の映像サンプル時刻を基準に、表示中のフレーム番号を算出するよう改善
+- 23.976fpsおよび29.97/59.94fpsドロップフレームのタイムコード計算を改善
+- 埋め込みタイムコードの開始値やメディア開始時刻を考慮した表示に対応
+- MOVに格納された32-bit／64-bitタイムコードの読み取り精度を向上
+- 回転情報を持つ動画を正しい向きで表示し、回転後の解像度を表示するよう改善
+- 音声トラックおよびLTCトラックの切り替え処理を安定化
+- 音声メタデータが不完全なファイルでも、再生可能なトラックを適切に選択するよう改善
+- 連続したシーク、トラック切り替え、別ファイルの読み込みにおける競合処理を改善
+- 破損または切り詰められたメディアを安全に処理できるよう入力検証を強化
+- シークバー終端付近のフレーム選択精度を改善
+- ファイルを開く操作とドラッグ＆ドロップの安定性を改善
+- アプリのカテゴリを「ビデオ」に設定
+- アプリメニューから利用できる自動アップデート機能を追加
+- その他、メモリ管理、音声同期、再生終了時の処理を改善
+
+## アップデートについて
+
+v1.1には自動アップデート機能が含まれていないため、v2.0は手動でダウンロードしてインストールしてください。v2.0以降は、アプリメニューの「Check for Updates…」から新しいバージョンを確認できます。]]></description>
+            <enclosure url="https://github.com/mistelier/nPlayerPro/releases/download/2.0/nPlayerPro.dmg" length="1661755" type="application/octet-stream" sparkle:edSignature="RlqCt2E+GY+TRdmhBbjqERA74B7QiPaeRbvFtyZrlCzmoUE4sbaUR6m2F2btBw+M+XH8noAk2qLy1uokEfAhDA=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: PglNm49jnWJuurDr3pazieqvAxArNb5VK3Rqenwyoa2VSp2GJAE+vaJh8iTfIUlkD+58Scb1OY09f2ju9lB5AQ==
+length: 3173
+-->
